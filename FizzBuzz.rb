@@ -2,13 +2,13 @@ def fizz_buzz(num)
   #FizzBuzzのプログラムの処理を書く
   
   if num % 15 == 0 
-    "FizzBuzz"
+    puts "FizzBuzz"
     elsif num % 3 == 0
-     "Fizz"
+     puts "Fizz"
     elsif num % 5 == 0
-     "Buzz"
+     puts "Buzz"
     else
-      num.to_s
+      puts num.to_s
   end
 end
 
